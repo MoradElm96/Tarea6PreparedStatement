@@ -5,9 +5,7 @@
  */
 package tarea6;
 
-import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.Scanner;
 
 /**
  *
@@ -23,9 +21,17 @@ public class Main {
 
        // libro.aniadirLibro(123456789, "El principito", "makiavelo", "salvat", 158, 2);
        // libro.borrarLibro(123456789);
-       libro.verCatalogo();
-       libro.actualizarCopias(12345, 89);
+       libro.verCatalogo2();
+      // libro.aniadirTablaPrecio();
+     //  libro.actualizarCopias(12453, 65);
+     //a)
+     libro.actualizarPrecio(1.5);
+     //b)
+     
+     libro.actualizar2Libros(1725, 1325, 1.8);
         
+     libro.sumarPaginas(1725, 300,1.8 );
+     libro.copiarLibro(1725, 12);
     }
 
 }
