@@ -67,28 +67,6 @@ public class Libro {
 
     }
 
-    /*
-    public void verCatalogo() throws SQLException {
-
-        query = "select * from libros order by titulo asc";
-        ps = con.prepareStatement(query);
-        rs = ps.executeQuery();
-        while (rs.next()) {
-            isbn = rs.getInt("isbn");
-            titulo = rs.getString("titulo");
-            autor = rs.getString("autor");
-            editorial = rs.getString("editorial");
-            paginas = rs.getInt("paginas");
-            copias = rs.getInt("copias");
-           
-
-            System.out.println(toString());
-
-        }
-        ps.close();
-        rs.close();
-
-    }*/
     public void verCatalogo2() throws SQLException {
 
         query = "select * from libros order by titulo asc";

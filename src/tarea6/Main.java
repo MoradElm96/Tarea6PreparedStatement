@@ -6,6 +6,7 @@
 package tarea6;
 
 import java.sql.SQLException;
+import java.util.Scanner;
 
 /**
  *
@@ -17,7 +18,62 @@ public class Main {
         // Connection con = Conexion.conectar();
 
         Libro libro = new Libro();
-       // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        int opcion;
+      
+       do {
+        
+       
+           
+            
+        System.out.println("Tarea 6: Menu base datos ");
+        System.out.println("1. Añadir libro");
+        System.out.println("2. Borrar libro");
+        System.out.println("3. Ver Catalogo");
+        System.out.println("4. Actualizar copias ");
+        System.out.println("5. ");
+        System.out.println("6. Borrar libro");
+        System.out.println("7. Ver Catalogo");
+        System.out.println("8. Actualizar copias ");
+        
+        System.out.println("0. Salir");
+        System.out.print("Introduce la opción: ");
+            
+            opcion = sc.nextInt();
+            
+
+            switch (opcion) {
+
+                case 1:
+                  
+
+                    break;
+                case 2:
+                
+                   
+
+                    break;
+
+                case 3:
+                  
+
+                    
+
+                    break;
+
+                case 4:
+                  
+                    
+                    break;
+
+                default:
+                    System.out.println("Opcion no valida ");
+                    break;
+            }
+
+        } while (opcion != 0);
+       sc.close();
+        
 
        // libro.aniadirLibro(123456789, "El principito", "makiavelo", "salvat", 158, 2);
        // libro.borrarLibro(123456789);
