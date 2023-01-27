@@ -38,6 +38,7 @@ public class Main {
 
             opcion = sc.nextInt();
 
+            //los datos se introducen directamente por parametros
             switch (opcion) {
 
                 case 1:
@@ -62,6 +63,7 @@ public class Main {
                     libro.sumarPaginas(1725, 300, 1.8);
                     break;
                 case 8:
+                    //tiene que haber primero la columna precio antes de usar este metodo,ejecutar el metodo 5 del switch
                     libro.copiarLibro(1725, 12);
                     break;
                 default:

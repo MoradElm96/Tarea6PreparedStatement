@@ -53,7 +53,7 @@ public class Libro {
 
         ps.close();
 
-        Conexion.cerrarConexion();
+       // Conexion.cerrarConexion();
     }
 
     public void borrarLibro(int isbn) throws SQLException {
